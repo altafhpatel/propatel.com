@@ -2,11 +2,11 @@ a,
 abbr,
 acronym,
 address,
-applet,
 b,
 big,
 blockquote,
 body,
+applet,
 caption,
 center,
 cite,
@@ -491,9 +491,8 @@ max-width: 100%
 }
 
 .header-ads .widget .widget-content {
-width: 728px;
 max-width: 100%;
-max-height: 90px;
+  width:100%;
 line-height: 1
 }
 
