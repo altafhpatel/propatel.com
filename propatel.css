@@ -467,21 +467,11 @@ margin: 0
 background-color: #fff;
 width: 100%;
 position: relative;
-overflow: hidden;
-padding: 25px 0
+padding: 5px 0 15px;
 }
-
-.header-header .container {
-position: relative;
-margin: 0 auto
-}
-
-
-
 .header-ads {
 position: relative;
 }
-
 .header-ads .widget>.widget-title {
 display: none
 }
@@ -612,7 +602,7 @@ margin: 0 -5px
 .hot-posts .hot-item {
 position: relative;
 float: left;
-width: calc(100% / 4);
+width: calc(100% / 3);
 height: 320px;
 overflow: hidden;
 box-sizing: border-box;
