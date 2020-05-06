@@ -2881,7 +2881,7 @@ width: 60px;
 height: 60px
 }
 }
-.item-post .post-body ol li, .item-post .post-body ul li{margin:5px 0 0;line-height:2.9rem;padding: 10px 0 0 15px;
+.item-post .post-body ol li, .item-post .post-body ul li{margin:5px 0 0;line-height:2.9rem;padding: 10px 0 0 5px;
 }
 .post-body ul {padding: 0 0 0 24px}
 .item-post .post-body ul li{list-style: none;}
