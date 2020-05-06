@@ -1688,8 +1688,8 @@ margin: 0 0 20px
 .post-body h5,
 .post-body h6,
 post-body .h5 {
-font-family: open sans san-serif;
-font-family: color: #333;
+ font-family: 'Share', cursive;
+ color: #333;
 font-weight: 700;
 margin: 0 0 15px
 }
