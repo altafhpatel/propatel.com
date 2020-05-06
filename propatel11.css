@@ -2842,4 +2842,4 @@ font-size: 120px
 .item-post .post-body ul li{list-style: none;}
 .item-post .post-body ul li:before {content: "\f005";font-family: fontawesome;font-size:12px;color:#ed1b24;position:absolute;left:15px;}
 
-.item-post table tr td{line-height:3.3rem}
+.item-post table tr td{line-height:3.3rem;vertical-align:middle}
