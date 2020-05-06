@@ -947,7 +947,7 @@ display: inline-block
 .static_page .item-post h1.post-title {margin: 0}
 .item-post .post-body {width:100%;font-size:1.6rem;overflow:hidden;padding:20px 0 0;margin:10px 0 0;border-top:1px dashed #ebebeb;
 color:#000;line-height:3.3rem;}
-.item-post .post-body ol{margin:30px 0 25px 30px;}
+
 
 .static_page .item-post .post-body{padding: 20px 0}
 .item-post .post-outer {padding: 0}
@@ -1635,16 +1635,14 @@ font-size: 16px
 font-size: 13px
 }
 
-.blockquote,
-blockquote {
+.blockquote, blockquote {
 color: #888;
 padding: 20px 10px;
 margin: 5px 0 20px 50px;
 border-left: 4px solid #ed1b24
 }
 
-.blockquote:before,
-blockquote:before {
+.blockquote:before, blockquote:before {
 display: inline-block;
 font-family: FontAwesome;
 color: #ed1b24;
@@ -1654,48 +1652,9 @@ font-size: 35px;
 content: '\f10d';
 margin: 0 10px 0 0
 }
-
-.widget .post-body ol,
-.widget .post-body ul {
-line-height: 1.5;
-font-weight: 400
-}
-
-.widget .post-body li {
-margin: 5px 0;
-padding: 0;
-line-height: 1.5
-}
-
-
-.post-body u {
-text-decoration: underline
-}
-
-.post-body a {
-transition: color .17s ease
-}
-
-.post-body strike {
-text-decoration: line-through
-}
-
-.contact-form {
-overflow: hidden
-}
-
-.contact-form .widget-title {
-display: none
-}
-
-.contact-form .contact-form-name {
-width: calc(50% - 5px)
-}
-
-.contact-form .contact-form-email {
-width: calc(50% - 5px);
-float: right
-}
+.post-body u {text-decoration: underline}
+.post-body a {transition: color .17s ease}
+.post-body strike {text-decoration: line-through}
 
 .sidebar .widget {
 position: relative;
@@ -2879,6 +2838,6 @@ font-size: 120px
 .about-author .avatar-container {width: 60px;height: 60px}
 }
 .item-post .post-body ol li, .item-post .post-body ul li{margin:5px 0 0;line-height:3.3rem;padding:0 0 0 5px;}
-.post-body ul {padding: 0 0 0 24px}
+.item-post .post-body ul, .item-post .post-body ol {padding: 0 0 0 24px}
 .item-post .post-body ul li{list-style: none;}
 .post-body ul li:before {content: "\f005";font-family: fontawesome;font-size:12px;color:#ed1b24;position:absolute;left:15px;}
