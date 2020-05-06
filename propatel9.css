@@ -2838,6 +2838,6 @@ font-size: 120px
 .about-author .avatar-container {width: 60px;height: 60px}
 }
 .item-post .post-body ol li, .item-post .post-body ul li{margin:5px 0 0;line-height:3.3rem;padding:0 0 0 5px;}
-.item-post .post-body ul, .item-post .post-body ol {padding: 0 0 0 24px}
+.item-post .post-body ul, .item-post .post-body ol {padding: 0 0 0 24px;margin-bottom:30px;}
 .item-post .post-body ul li{list-style: none;}
 .post-body ul li:before {content: "\f005";font-family: fontawesome;font-size:12px;color:#ed1b24;position:absolute;left:15px;}
