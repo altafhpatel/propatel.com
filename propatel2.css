@@ -948,7 +948,7 @@ display: inline-block
 .item-post .post-body {width:100%;font-size:1.6rem;overflow:hidden;padding:20px 0 0;margin:10px 0 0;border-top:1px dashed #ebebeb;
 color:#000;line-height:3.3rem;}
 .item-post .post-body ol{margin:30px 0 25px 30px;}
-.item-post .post-body li{margin:5px 0 15px;}
+
 .static_page .item-post .post-body{padding: 20px 0}
 .item-post .post-outer {padding: 0}
 .item-post .post-body img {max-width:100%;height:auto}
@@ -2884,3 +2884,5 @@ width: 60px;
 height: 60px
 }
 }
+
+.item-post .post-body li{margin:5px 0 15px; !important;list-style: none;margin:5px 0;padding:0;line-height: 3.3rem;}
