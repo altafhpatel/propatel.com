@@ -968,14 +968,14 @@ margin: 0
 }
 
 .item-post .post-body {
-font-family: Lato, sans-serif;
 width: 100%;
 font-size: 1.6rem;
-line-height: 1.8em;
 overflow: hidden;
 padding: 20px 0 0;
 margin: 10px 0 0;
-border-top: 1px dashed #ebebeb
+border-top: 1px dashed #ebebeb;
+color: #000;
+line-height: 3.3rem;
 }
 
 .static_page .item-post .post-body {
